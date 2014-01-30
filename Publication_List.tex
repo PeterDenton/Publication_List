@@ -2,12 +2,15 @@
 
 \renewcommand\refname{Publication List}
 
+\def\myName{Peter Denton}
+\def\myTitle{Publication List}
+
 \usepackage[dot,sectcntreset]{bibtopic}
 \usepackage{hyperref}
 \hypersetup{
 colorlinks=false,pdfborder={0 0 0}
-pdfauthor={Peter Denton},
-pdftitle={Publication List}}
+pdfauthor={\myName},
+pdftitle={\myTitle}}
 
 \newcommand\myBib[1]{
 \begin{btSect}{#1}
@@ -15,11 +18,17 @@ pdftitle={Publication List}}
 \btPrintAll
 \end{btSect}}
 
+\title{\myTitle}
+\author{\myName}
+\date{\small(Updated: \today)}
+
 \begin{document}
+
+\maketitle
 
 \bibliographystyle{utphys}
 
-\myBib{Published}
+% \myBib{Published}
 \myBib{Preprint}
 \myBib{Conference}
 \myBib{Talks}
