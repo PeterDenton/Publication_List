@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{article}
+
+\renewcommand\refname{Publication List}
+
+\usepackage[dot,sectcntreset]{bibtopic}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=false,pdfborder={0 0 0}
+pdfauthor={Peter Denton},
+pdftitle={Publication List}}
+
+\newcommand\myBib[1]{
+\begin{btSect}{#1}
+\section*{#1}
+\btPrintAll
+\end{btSect}}
+
+\begin{document}
+
+\bibliographystyle{utphys}
+
+\myBib{Published}
+\myBib{Preprint}
+\myBib{Conference}
+\myBib{Talks}
+
+
+\end{document}
