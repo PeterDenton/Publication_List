@@ -158,74 +158,6 @@ height: 35px;
 
 a:link
 {
-color: #000050;
-text-decoration: none;
-font-weight: normal;
-}
-a:visited
-{
-color: #000050;
-text-decoration: none;
-font-weight: normal;
-}
-a:hover
-{
-color: #0000FF;
-text-decoration: underline;
-font-weight: normal;
-}
-a:active
-{
-text-decoration: bold;
-}
-
-ul
-{
-list-style-type:none;
-padding:0;
-margin:5px 20px;
-}
-body
-{
-background-color: #E6E6E6;
-color: #000050;
-font-family: arial;
-font-size: 150%;
-padding: 10px 10%;
-}
-
-#container
-{
-min-height: 100%;
-position: relative;
-}
-
-#header
-{
-padding-bottom: 10px;
-text-align: center;
-}
-
-#body
-{
-padding-bottom: 35px;
-text-align: center;
-}
-
-#footer
-{
-position: absolute;
-bottom: 0;
-
-left: 0;
-right: 0;
-text-align: center;
-
-height: 35px;
-}
-
-a:link
-{
 color: #FF6600;
 text-decoration: none;
 font-weight: normal;
@@ -239,7 +171,7 @@ font-weight: normal;
 a:hover
 {
 color: #000050;
-text-decoration: underline;
+text-decoration: none;
 font-weight: normal;
 }
 a:active
