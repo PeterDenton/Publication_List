@@ -140,12 +140,13 @@ text-align: center;
 
 #body
 {
-padding-bottom: 35px;
+padding-bottom: 40px;
 text-align: center;
 }
 
 #footer
 {
+clear: both;
 position: absolute;
 bottom: 0;
 
@@ -153,7 +154,7 @@ left: 0;
 right: 0;
 text-align: center;
 
-height: 35px;
+height: 40px;
 }
 
 a:link
@@ -170,8 +171,8 @@ font-weight: normal;
 }
 a:hover
 {
-color: #000050;
-text-decoration: none;
+color: #FF6600;
+text-decoration: underline;
 font-weight: normal;
 }
 a:active
@@ -208,12 +209,13 @@ text-align: center;
 
 #body
 {
-padding-bottom: 35px;
+padding-bottom: 40px;
 text-align: center;
 }
 
 #footer
 {
+clear: both;
 position: absolute;
 bottom: 0;
 
@@ -221,7 +223,7 @@ left: 0;
 right: 0;
 text-align: center;
 
-height: 35px;
+height: 40px;
 }
 
 a:link
@@ -238,8 +240,8 @@ font-weight: normal;
 }
 a:hover
 {
-color: #000050;
-text-decoration: none;
+color: #FF6600;
+text-decoration: underline;
 font-weight: normal;
 }
 a:active
