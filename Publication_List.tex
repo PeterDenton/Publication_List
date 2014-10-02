@@ -5,6 +5,7 @@
 \def\myName{Peter Denton}
 \def\myTitle{Publication List}
 
+\usepackage[margin=1in]{geometry}
 \usepackage[dot,sectcntreset]{bibtopic}
 \usepackage{hyperref}
 \hypersetup{
@@ -21,9 +22,13 @@ pdftitle={\myTitle}}
 
 \title{\myTitle}
 \author{\myName}
-\date{\small(Updated: \today)}
+\date{\small Updated: \today\footnote{For the latest version see:\ \href{http://peterdenton.github.io}{\tt peterdenton.github.io}}}
 
 \begin{document}
+
+\makeatletter
+\let\@fnsymbol\@arabic
+\makeatother
 
 \maketitle
 
