@@ -4,10 +4,10 @@
 .cmr-12x-x-120{font-size:120%;}
 .cmr-10x-x-109{font-size:90%;}
 .cmtt-12{font-family: monospace;}
-.cmr-8{font-size:66%;}
-.cmmi-12{font-style: italic;}
 .cmti-12{ font-style: italic;}
 .cmbx-12{ font-weight: bold;}
+.cmr-8{font-size:66%;}
+.cmmi-12{font-style: italic;}
 p.noindent { text-indent: 0em }
 td p.noindent { text-indent: 0em; margin-top:0em; }
 p.nopar { text-indent: 0em; }
