@@ -1,0 +1,12 @@
+latex Publication_List.tex
+latex Publication_List.tex
+bibtex Publication_List.1
+bibtex Publication_List.2
+bibtex Publication_List.3
+bibtex Publication_List.4
+bibtex Publication_List.5
+bibtex Publication_List.6
+latex Publication_List.tex
+latex Publication_List.tex
+dvips Publication_List.dvi
+ps2pdf Publication_List.ps

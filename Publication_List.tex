@@ -15,8 +15,8 @@ pdfborder={0 0 0},
 pdfauthor={\myName},
 pdftitle={\myTitle}}
 
-\newcommand\myBib[1]{
-\begin{btSect}{#1}
+\newcommand\myBib[2]{
+\begin{btSect}{#2}
 \section*{#1}
 \btPrintAll
 \end{btSect}}
@@ -35,9 +35,11 @@ pdftitle={\myTitle}}
 
 \bibliographystyle{utphys}
 
-\myBib{Articles}
-\myBib{Conference}
-\myBib{Talks}
-\myBib{Code}
+\myBib{Articles}{Articles}
+\myBib{Conference Proceedings}{Conference}
+\myBib{Talks}{Talks}
+% \myBib{Contributed Talks}{ContributedTalks}
+\myBib{Code}{Code}
+\myBib{Thesis}{Thesis}
 
 \end{document}
