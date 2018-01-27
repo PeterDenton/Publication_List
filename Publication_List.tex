@@ -1,48 +1,48 @@
-	\documentclass[12pt]{article}
+\documentclass[12pt]{article}
 
-	\renewcommand\refname{Publication List}
+\renewcommand\refname{Publication List}
 
-	\def\myName{Peter B.~Denton}
-	\def\myTitle{Publication List}
+\def\myName{Peter B.~Denton}
+\def\myTitle{Publication List}
 
-	\usepackage[utf8]{inputenc}
-	\usepackage[margin=1in]{geometry}
-	\usepackage[dot,sectcntreset]{bibtopic}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage[dot,sectcntreset]{bibtopic}
 
-	\usepackage{hyperref}
-	\hypersetup{colorlinks=true,pdfborder={0 0 0},allcolors=[rgb]{1,0.56,0}}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,pdfborder={0 0 0},allcolors=[rgb]{1,0.56,0}}
 
-	% \hypersetup{
-	% colorlinks=false,
-	% pdfborder={0 0 0},
-	% pdfauthor={\myName},
-	% pdftitle={\myTitle}}
+% \hypersetup{
+% colorlinks=false,
+% pdfborder={0 0 0},
+% pdfauthor={\myName},
+% pdftitle={\myTitle}}
 
-	\newcommand\myBib[2]{
-	\begin{btSect}{#2}
-	\section*{#1}
-	\btPrintAll
-	\end{btSect}}
+\newcommand\myBib[2]{
+\begin{btSect}{#2}
+\section*{#1}
+\btPrintAll
+\end{btSect}}
 
-	\title{\myTitle}
-	\author{\myName}
-	\date{\small Updated: \today\footnote{For the latest version see:\ \href{http://peterdenton.github.io}{\tt peterdenton.github.io}}}
+\title{\myTitle}
+\author{\myName}
+\date{\small Updated: \today\footnote{For the latest version see:\ \href{http://peterdenton.github.io}{\tt peterdenton.github.io}}}
 
-	\begin{document}
+\begin{document}
 
-	\makeatletter
-	\let\@fnsymbol\@arabic
-	\makeatother
+\makeatletter
+\let\@fnsymbol\@arabic
+\makeatother
 
-	\maketitle
+\maketitle
 
-	\bibliographystyle{utphys}
+\bibliographystyle{utphys}
 
-	\myBib{Articles}{Articles}
-	\myBib{Conference Proceedings}{Conference}
-	\myBib{Talks}{Talks}
-	% \myBib{Contributed Talks}{ContributedTalks}
-	\myBib{Code}{Code}
-	\myBib{Thesis}{Thesis}
+\myBib{Articles}{Articles}
+\myBib{Conference Proceedings}{Conference}
+\myBib{Talks}{Talks}
+% \myBib{Contributed Talks}{ContributedTalks}
+\myBib{Code}{Code}
+\myBib{Thesis}{Thesis}
 
-	\end{document}
+\end{document}
