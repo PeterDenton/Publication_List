@@ -1,5 +1,6 @@
 latex Publication_List.tex
 latex Publication_List.tex
+bibtex Publication_List
 bibtex Publication_List.1
 bibtex Publication_List.2
 bibtex Publication_List.3
