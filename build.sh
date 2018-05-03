@@ -7,6 +7,7 @@ bibtex Publication_List.3
 bibtex Publication_List.4
 bibtex Publication_List.5
 bibtex Publication_List.6
+bibtex Publication_List.7
 latex Publication_List.tex
 latex Publication_List.tex
 dvips Publication_List.dvi
