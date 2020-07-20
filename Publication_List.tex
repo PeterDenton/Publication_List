@@ -18,6 +18,8 @@
 % pdfauthor={\myName},
 % pdftitle={\myTitle}}
 
+% 1 -> section title
+% 2 -> file name
 \newcommand\myBib[2]{
 \begin{btSect}{#2}
 \section*{#1}
@@ -38,7 +40,8 @@
 
 \bibliographystyle{utphys}
 
-\myBib{Articles}{Articles}
+\setcounter{footnote}{1}
+\myBib{Articles\footnote{Most author lists are in alphabetical order.}}{Articles}
 \myBib{Conference Proceedings}{Conference}
 \myBib{Talks}{Talks}
 % \myBib{Contributed Talks}{ContributedTalks}
