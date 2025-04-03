@@ -24,6 +24,7 @@
 \newcommand\myBib[2]{
 \begin{btSect}{#2}
 \section*{#1}
+\addcontentsline{toc}{section}{\protect\numberline{}#1}
 \btPrintAll
 \end{btSect}}
 
@@ -39,12 +40,14 @@
 
 \maketitle
 
+\tableofcontents
+
 \bibliographystyle{utphys}
 
-\myBib{Articles (73)}{Articles}
+\myBib{Articles (74)}{Articles}
 \myBib{Conference Proceedings}{Conference}
 \myBib{Collaboration Papers}{Collaboration}
-\myBib{Talks (107 including 68 invited)}{Talks}
+\myBib{Talks (109 including 69 invited)}{Talks}
 \myBib{Lectures}{Lectures}
 % \myBib{Contributed Talks}{ContributedTalks}
 \myBib{Notes}{Notes}
